@@ -45,8 +45,8 @@ export default function AboutSection() {
         </div>
         <div className="flex justify-center items-center gap-2">
           <div className="text-orange-400 font-bold">feel free to contact me:</div>
-          <div className="flex flex-row gap-2">{myLinks.map((i, Kindex)=>{
-            return(<a className="bg-white border-2 rounded-sm" href={i.web} key={Kindex}>
+          <div className="flex flex-row gap-2">{myLinks.map((i, kIndex)=>{
+            return(<a className="bg-white border-2 rounded-sm" href={i.web} key={kIndex}>
               <img className="" src={i.logo}></img>
             </a>) 
            
