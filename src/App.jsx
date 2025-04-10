@@ -6,15 +6,21 @@ import Navbar from "./components/navbar";
 import Aboutme from "./components/about";
 import Project from "./components/projects";
 import Lang from "./components/Lang.jsx";
-import learnIcon from "../public/learn.svg";
+import Cert from "./components/certificate.jsx";
 
 function App() {
   return (
     <>
+      <title>Ali Portfolio</title>
+
       <Navbar></Navbar>
+
       <Aboutme></Aboutme>
+
       <Project></Project>
+
       <hr className="mt-3 border-white"></hr>
+
       <div className=" p-5 text-white  font-bold flex  justify-center items-center gap-2">
         Languages I Learnt{" "}
         <svg
@@ -33,7 +39,12 @@ function App() {
           <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z" />
         </svg>
       </div>
+
       <Lang></Lang>
+
+      <hr className="mt-3 border-white"></hr>
+
+      <Cert></Cert>
     </>
   );
 }

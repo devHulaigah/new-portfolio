@@ -1,14 +1,14 @@
-import jsIcon from "../../public/js.svg";
-import reactIcon from "../../public/react.svg";
-import cssIcon from "../../public/css.svg";
-import htmlIcon from "../../public/html.svg";
-import javaIcon from "../../public/java.svg";
-import typescriptIcon from "../../public/typescript.svg";
+import jsIcon from "../assets/js.svg";
+import reactIcon from "../assets/react.svg";
+import cssIcon from "../assets/css.svg";
+import htmlIcon from "../assets/html.svg";
+import javaIcon from "../assets/java.svg";
+import typescriptIcon from "../assets/typescript.svg";
 
 export default function Lang() {
   return (
     <>
-      <div className="grid p-2 grid-rows-5 grid-cols-3  gap-2 justify-self-center place-items-center">
+      <div className="grid p-2 grid-rows-auto grid-cols-3  gap-2 justify-self-center place-items-center">
         <div className="grid justify-auto place-self-auto">
           <a target="_blank" className="" href="https://www.javascript.com/">
             <img
@@ -40,7 +40,11 @@ export default function Lang() {
         </div>
 
         <div className="grid place-self-auto">
-          <a target="_blank" className="" href="https://www.w3schools.com/css/">
+          <a
+            target="_blank"
+            className=""
+            href="https://www.w3schools.com/Html/"
+          >
             <img
               src={htmlIcon}
               alt="Language Logo"
@@ -50,7 +54,7 @@ export default function Lang() {
         </div>
 
         <div className="grid  place-self-auto">
-          <a target="_blank" className="" href="https://www.w3schools.com/css/">
+          <a target="_blank" className="" href="https://www.java.com/en/">
             <img
               src={javaIcon}
               alt="Language Logo"
@@ -60,7 +64,11 @@ export default function Lang() {
         </div>
 
         <div className="grid justify-auto place-self-auto">
-          <a target="_blank" className="" href="https://www.w3schools.com/css/">
+          <a
+            target="_blank"
+            className=""
+            href="https://www.typescriptlang.org/"
+          >
             <img
               src={typescriptIcon}
               alt="Language Logo"
